@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="xD.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <center>
+      <div class="cajita">
+        <h1>Inventario</h1>
+        <p class="textito">Welcome</p>
+      </div>
+      <div class="flex">
+        <form class="cajita">
+          <h1>Formualrio</h1>
+          <p>Introdusca los siguientes datos</p>
+          <p>Nombre</p>
+          <input type="text" name="nombre" id="nombre" /><br />
+          <p>Minutos </p>
+          <input type="number" name="min" id="min" /><br />
+          
+          <br />
+        </form>
+        <form class="cajita">
+          <h1>Botones</h1>
+          <p>¿Que desea hacer?</p>
+          <p>porfavor llene los datos del formulario</p>
+          <input type="button" id="Add" value="Agregar nueva base" /> <br />
+          <p>escriba el nombre de la base en el apartado de "Nombre" del formulario</p>
+          <input type="button" id="Del" value="Borrar una base por nombre" />
+          <p>escriba el nombre de la base en el apartado de "Nombre" del formulario</p>
+          <input type="button" id="Search" value="Buscar un producto por nombre" />
+          <input type="button" id="List" value="Listar bases" />
+          <input type="button" id="Insert" value="Insertar elemento en la posicion:" /><input type="number" name="pos" id="pos" /><br />
+          <input type="button" id="Recorrer" value="F" />
+        </form>
+        <form class="cajita">
+          <h1>Resultados</h1>
+          <p id="Description"></p>
+          <br />
+        </form>
+        
+      </div>
+    </body>
+    <script src="main.js"></script>
+  </html>
+      
